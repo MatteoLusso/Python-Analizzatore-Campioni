@@ -1,0 +1,38 @@
+ Campione                           | CAM3_T_7.txt
+ Misurazioni                        | 16302
+
+
+ Moda (camp.)                       | 1.9207796209877182
+ Mediana (camp.)                    | 1.9210050975689046
+ Media (camp.)                      | 1.9209604684178452
+ PDF Media (camp.)                  | 5.42%
+ Media armonica (camp.)             | 1.9209591955745287
+ PDF Media armonica (camp.)         | 5.42%
+ Altezza reale                      | 1.94
+ PDF altezza reale                  | 0.00%
+
+
+ Errore (media) :                   | -0.019039531582154767 m
+ Errore relativo (media) :          | 0.9814191537193179%
+
+
+ Errore (media armonica) :          | -0.01904080442547129 m
+
+
+ Varianza (Val. reale)              | 0.00036494866331098234
+ Deviazione standard (Val. reale)   | 0.019103629584740756
+
+
+ Varianza (Media camp.)             | 2.444900443506283e-06
+ Deviazione standard (Media camp.)  | 0.00156361774213082
+
+
+ Varianza (Media arm.)              | 2.4449020636364136e-06
+ Deviazione standard (Media arm.)   | 0.001563618260201771
+
+
+ Ampiezza campo di variazione       | 0.011170418623435596 m
+ Coefficiente di variazione         | 0.0008139770535822935
+
+
+ Test Chi^2                         | 18.58699491942526

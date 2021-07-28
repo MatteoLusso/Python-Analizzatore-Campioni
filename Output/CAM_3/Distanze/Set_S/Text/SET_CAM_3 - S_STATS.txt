@@ -1,0 +1,15 @@
+ |               SET CAM_3 - S - Campione              | 
+ ------------------------------------------------------------------------- 
+ |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   | 
+ |-------|-------|-------|-------|-------|-------|-------|-------|-------| 
+ |   No  |   No  |   No  |   No  |   No  |   No  |   Sì  |   No  |   Sì  | Il valore reale è compreso tra la minima e massima misurazione?
+ |-------|-------|-------|-------|-------|-------|-------|-------|-------| 
+ |   No  |   No  |   No  |   No  |   No  |   No  |   Sì  |   No  |   Sì  | La media è vicina al valore reale?
+ |-------|-------|-------|-------|-------|-------|-------|-------|-------| 
+ |   Sì  |   Sì  |   Sì  |   Sì  |   Sì  |   Sì  |   Sì  |   Sì  |   Sì  | La media è inferiore al valore reale?
+
+
+Risultato:
+ - Il 22.22% delle volte il valore reale di questo set (1.758m) è compreso tra la minima e massima misurazione dei singoli campioni.
+ - Il 22.22% delle medie campionarie del set hanno un errore assoluto in metri minore di 0.005m.
+ - Il 100.0% delle medie campionarie del set sono state sottostimata rispetto al valore valore reale di questo set (1.758m).

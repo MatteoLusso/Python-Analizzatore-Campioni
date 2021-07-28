@@ -1,0 +1,38 @@
+ Campione                           | CAM4_A_2.txt
+ Misurazioni                        | 1485
+
+
+ Moda (camp.)                       | 1.4207328646055293
+ Mediana (camp.)                    | 1.4151178613664979
+ Media (camp.)                      | 1.4153760894343552
+ PDF Media (camp.)                  | 4.38%
+ Media armonica (camp.)             | 1.4153688183145008
+ PDF Media armonica (camp.)         | 4.39%
+ Altezza reale                      | 1.427
+ PDF altezza reale                  | 0.00%
+
+
+ Errore (media) :                   | -0.011623910565644824 m
+ Errore relativo (media) :          | 0.8145697663381095%
+
+
+ Errore (media armonica) :          | -0.011631181685499259 m
+
+
+ Varianza (Val. reale)              | 0.0001454083652303536
+ Deviazione standard (Val. reale)   | 0.012058539100171033
+
+
+ Varianza (Media camp.)             | 1.0293068392329143e-05
+ Deviazione standard (Media camp.)  | 0.0032082812208921374
+
+
+ Varianza (Media arm.)              | 1.0293121261513115e-05
+ Deviazione standard (Media arm.)   | 0.003208289460368736
+
+
+ Ampiezza campo di variazione       | 0.015167340761448767 m
+ Coefficiente di variazione         | 0.0022667340820871885
+
+
+ Test Chi^2                         | 59.90914042384631
