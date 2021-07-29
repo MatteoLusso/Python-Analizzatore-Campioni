@@ -1,6 +1,8 @@
 # Python-Analizzatore-Campioni
 
-Questa repository contiene il software in Python che ho sviluppato per la mia tesi di laurea.
+Questa repository contiene il software in Python che ho sviluppato per la mia tesi di laurea sviluppata 
+in collaborazione fra l'Università degli Studi di Cagliari e l'Arma dei Carabinieri.
+
 L'obiettivo era quello di analizzare l'errore che si genera quando si estrapola la misura dell'altezza
 di una persona da un fotogramma di un video.
 
