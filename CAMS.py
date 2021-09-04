@@ -1,8 +1,21 @@
+# Questo è lo script principale utilizzato per eseguire l'analisi dei dati di una o più telecamere.
+# Non esiste un'interfaccia grafica, quindi bisogna impostare tutto manualmente nella parte di MAIN del codice.
+
 import Graphs as grp
 import CAM3_AMST_Dist
 import CAM4_AMCT_Dist
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[FUNZIONI]# 
+
+# Questa funzione serve a generare un grafico che confronta l'errore relativo percentuale di due diverse telecamere.
+# Ad esempio se un soggetto è ripreso in posizioni simili ma da due diverse telecamere e si vuole mostrare
+# visivamente la variazione degli errori relativi percentuali a parità di posizione (o comunque in posizioni simili), allora si può usare questa funzione.
+
+# CamsErrRelConfrontation riceve in ingresso una lista di oggetti di tipo custom*; una lista di stringhe con i nomi dei campioni confrontati; 
+# il nome con cui si vuole salvare l'immagine risultante; la descrizione dell'immagine; l'etichetta visualizzata sotto l'asse X; il percorso in cui salvare l'immagine;
+# il percorso in cui salvare un file di testo con i risultati del confronto e infine una variabile booleana che, se vera, mostra l'immagine durante l'esecuzione del codice.
+
+# * Tale oggetto è definito nel file 
 
 def CamsErrRelConfrontation( camsSets, camsNames, imageName = "", imageDescription = "", zLabel = "", outputImageFolder = "", outputTextFolder = "", show = False ):
 
@@ -27,7 +40,11 @@ def CamsErrRelConfrontation( camsSets, camsNames, imageName = "", imageDescripti
         outputFile.write(line + "\n")
         
     outputFile.close()
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+    
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[MAIN]#
+
+# Questa parte di codice è quella che si usa per far partire l'analisi delle misure delle altezze (sottoforma di file di testo) ottenute da una o più telecamere.
+# Usando la 
 
 outputImagesFolder = "D:\\Varie\\OneDrive\\MatteoLusso\\OneDrive\\Tesi\\Python\\Analizzatore_Campioni\\Output\\Images"
 outputTextFolder = "D:\\Varie\\OneDrive\\MatteoLusso\\OneDrive\\Tesi\\Python\\Analizzatore_Campioni\\Output\\Text"
